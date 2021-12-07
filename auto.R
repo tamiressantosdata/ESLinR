@@ -1,0 +1,11 @@
+
+install.packages("ISLR")
+library(ISLR)
+fix(Auto)
+rm(Auto)
+Auto = read.table('http://www­bcf.usc.edu/~gareth/ISL/Auto.data')
+View (Auto)
+dim (Auto)
+Auto <- na.omit (Auto)
+dim (Auto)
+names (Auto)
